@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Basic::Stats::VERSION
   spec.authors       = ["Christopher Petersen"]
   spec.email         = ["chris@petersen.io"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z and outlier detection}
+  spec.summary       = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z and outlier detection}
+  spec.homepage      = "http://github.com/cpetersen/basic-stats"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
