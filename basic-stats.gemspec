@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Basic::Stats::VERSION
   spec.authors       = ["Christopher Petersen"]
   spec.email         = ["chris@petersen.io"]
-  spec.description   = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z and outlier detection}
-  spec.summary       = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z and outlier detection}
+  spec.description   = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z, and outlier detection}
+  spec.summary       = %q{Basic statistical functions for Ruby collections, such as mean, standard_deviation, z, and outlier detection}
   spec.homepage      = "http://github.com/cpetersen/basic-stats"
   spec.license       = "MIT"
 
