@@ -56,7 +56,8 @@ The Grubb's test does not work well for detecting multiple outliers.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Make sure the specs run (`bundle exec rake spec`)
-6. Create new Pull Request
+3. Make your changes
+4. Make sure the specs run (`bundle exec rake spec`)
+5. Commit your changes (`git commit -am 'Add some feature'`)
+6. Push to the branch (`git push origin my-new-feature`)
+7. Create new Pull Request
