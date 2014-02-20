@@ -31,6 +31,11 @@ describe Basic::Stats do
     }.to change{array_with_outlier.size}.by(-1)
   end
 
+  it "should select outliers" do
+    outliers = array_with_outlier.select_outliers
+    outliers.should == [30]
+  end
+
   describe "z" do
     it "of 3 should be 0.82572" do
       array.z(3).should == 0.8257228238447705
