@@ -20,7 +20,12 @@ describe Basic::Stats do
     array.critical_z.should == 2.29
   end
 
-  it "should reject an outlier" do
+  it "should reject an outlier (copy)" do
+    new_array = array_with_outlier.reject_outliers
+    new_array.size.should == (array_with_outlier.size-1)
+  end
+
+  it "should reject an outlier (mutate)" do
     expect {
       array_with_outlier.reject_outliers!
     }.to change{array_with_outlier.size}.by(-1)
