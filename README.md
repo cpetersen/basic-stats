@@ -1,4 +1,4 @@
-# Basic::Stats
+# Basic::Stats [![Build Status](https://secure.travis-ci.org/cpetersen/basic-stats.png)](http://travis-ci.org/cpetersen/basic-stats) [![Coverage Status](https://coveralls.io/repos/cpetersen/basic-stats/badge.png?branch=master)](https://coveralls.io/r/cpetersen/basic-stats?branch=master) [![Gem Version](https://badge.fury.io/rb/basic-stats.png)](http://badge.fury.io/rb/basic-stats)
 
 Basic statistical functions for Ruby collections, such as mean, standard_deviation, z, and outlier detection
 
