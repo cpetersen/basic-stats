@@ -1,6 +1,5 @@
 # Basic::Stats
 [![Build Status](https://secure.travis-ci.org/cpetersen/basic-stats.png)](http://travis-ci.org/cpetersen/basic-stats)
-[![Coverage Status](https://coveralls.io/repos/cpetersen/basic-stats/badge.png?branch=master)](https://coveralls.io/r/cpetersen/basic-stats?branch=master)
 [![Code Climate](https://codeclimate.com/github/cpetersen/basic-stats.png)](https://codeclimate.com/github/cpetersen/basic-stats)
 [![Gem Version](https://badge.fury.io/rb/basic-stats.png)](http://badge.fury.io/rb/basic-stats)
 
