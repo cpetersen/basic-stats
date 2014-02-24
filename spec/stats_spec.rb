@@ -1,11 +1,24 @@
 require 'spec_helper'
 
 describe Basic::Stats do
+  let(:short_array) { [1,2,3].extend Basic::Stats }
   let(:array) { [1,2,3,4,5,6,7,8,9,10].extend Basic::Stats }
   let(:array_with_outlier) { [1,2,3,4,5,6,7,8,9,30].extend Basic::Stats }
 
   it "should have a mean of 5.5" do
     array.mean.should == 5.5
+  end
+
+  it "should have a mean of 5.5" do
+    array.median.should == 5.5
+  end
+
+  it "should have a mean of 5.5" do
+    array_with_outlier.median.should == 5.5
+  end
+
+  it "should have a mean of 2" do
+    short_array.median.should == 2
   end
 
   it "should have a standard deviation of 3.02765..." do
